@@ -12,11 +12,11 @@ import javax.persistence.EntityManager;
 /**
  * 종 주문 2개
  * * userA
- * 	 * JPA1 BOOK
- * 	 * JPA2 BOOK
+ * * JPA1 BOOK
+ * * JPA2 BOOK
  * * userB
- * 	 * SPRING1 BOOK
- * 	 * SPRING2 BOOK
+ * * SPRING1 BOOK
+ * * SPRING2 BOOK
  */
 @Component
 @RequiredArgsConstructor

@@ -42,4 +42,11 @@ public class MemberService {
         return memberRepository.findOne(memberId);
     }
 
+    @Transactional
+    public void update(Long id, String name) {
+        Member member = memberRepository.findOne(id);
+        member.setName(name); // 변경 감지에 의해 Transaction이 진행 //
+    }
 }
+
+// 변경 감지에 대해 더 알아보자!
